@@ -1,0 +1,12 @@
+# Amazon EC2 – Launching an Instance
+
+## Launch Steps
+1. Open EC2 → “Launch Instance”.
+2. Select Amazon Linux 2 AMI.
+3. Choose t2.micro (Free Tier).
+4. Create key pair (RSA).
+5. Configure Security Group:
+   - SSH → Port 22 → Your IP
+6. Launch the instance.
+
+## Connecting to EC2 (SSH)
