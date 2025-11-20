@@ -1,0 +1,28 @@
+# IAM – Users and Groups
+
+## Creating IAM Users
+1. Open AWS Management Console → IAM.
+2. Go to “Users” → Click “Create User”.
+3. Enter username and choose access type:
+   - Console access (password)
+   - Programmatic access (Access Key)
+4. Attach policies:
+   - AdministratorAccess (for testing)
+   - Or custom policies
+
+## Creating IAM Groups
+1. Go to “User Groups” → “Create Group”
+2. Assign a group name.
+3. Attach required policies.
+4. Add users to the group.
+
+## IAM Best Practices
+- Enable MFA for all users.
+- Use groups instead of assigning policies to individuals.
+- Rotate access keys regularly.
+- Follow least privilege principle.
+
+## What I Learned
+- How to manage permissions securely.
+- Difference between inline vs managed policies.
+- How IAM integrates with other AWS services.
